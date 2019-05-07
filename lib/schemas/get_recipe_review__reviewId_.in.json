@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "reviewId": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

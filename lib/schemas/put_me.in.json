@@ -1,0 +1,162 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "An API2 wrapper object for a user",
+            "properties": {
+                "Accounting": {
+                    "description": "Accounting object",
+                    "properties": {
+                        "CreditBalance": {
+                            "description": "",
+                            "format": "int32",
+                            "type": "integer"
+                        },
+                        "MemberSince": {
+                            "description": "",
+                            "format": "date-time",
+                            "type": "string"
+                        },
+                        "PremiumExpiryDate": {
+                            "description": "",
+                            "format": "date-time",
+                            "type": "string"
+                        },
+                        "UserLevel": {
+                            "description": "",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "BOAuthToken": {
+                    "description": "The user-specific authentication token",
+                    "type": "string"
+                },
+                "LastChangeLogID": {
+                    "description": "Last change log",
+                    "type": "string"
+                },
+                "Personal": {
+                    "description": "Personal object",
+                    "properties": {
+                        "Email": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "Location": {
+                            "description": "",
+                            "properties": {
+                                "City": {
+                                    "description": "",
+                                    "type": "string"
+                                },
+                                "Country": {
+                                    "description": "",
+                                    "type": "string"
+                                },
+                                "DMA": {
+                                    "description": "",
+                                    "format": "int32",
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        }
+                    },
+                    "type": "object"
+                },
+                "Preferences": {
+                    "description": "Preference info",
+                    "properties": {
+                        "EatingStyle": {
+                            "description": "",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "Profile": {
+                    "description": "Profile info",
+                    "properties": {
+                        "AboutMe": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "BackgroundUrl": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "Counts": {
+                            "description": "",
+                            "properties": {
+                                "AddedCount": {
+                                    "description": "",
+                                    "format": "int64",
+                                    "type": "integer"
+                                },
+                                "FollowersCount": {
+                                    "description": "",
+                                    "format": "int64",
+                                    "type": "integer"
+                                },
+                                "FollowingCount": {
+                                    "description": "",
+                                    "format": "int64",
+                                    "type": "integer"
+                                },
+                                "PrivateRecipeCount": {
+                                    "description": "",
+                                    "format": "int64",
+                                    "type": "integer"
+                                },
+                                "PublicRecipeCount": {
+                                    "description": "",
+                                    "format": "int64",
+                                    "type": "integer"
+                                },
+                                "TotalRecipes": {
+                                    "description": "",
+                                    "format": "int64",
+                                    "type": "integer"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        "FirstName": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "FullName": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "HomeUrl": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "LastName": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "PhotoUrl": {
+                            "description": "",
+                            "type": "string"
+                        },
+                        "UserID": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        },
+                        "UserName": {
+                            "description": "",
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

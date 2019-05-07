@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "reviewId": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "recipeId": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "requestBody": {
+            "description": "Legacy -- This object here is deprecated. Please use the new \"ReviewRequest\" structure for all future development",
+            "properties": {
+                "ActiveMinutes": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "Comment": {
+                    "type": "string"
+                },
+                "GUID": {
+                    "type": "string"
+                },
+                "MakeAgain": {
+                    "type": "string"
+                },
+                "ParentID": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "StarRating": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "TotalMinutes": {
+                    "format": "int32",
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "test": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

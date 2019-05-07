@@ -1,0 +1,84 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "AboutMe": {
+                    "description": "",
+                    "type": "string"
+                },
+                "BackgroundUrl": {
+                    "description": "",
+                    "type": "string"
+                },
+                "Counts": {
+                    "description": "",
+                    "properties": {
+                        "AddedCount": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        },
+                        "FollowersCount": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        },
+                        "FollowingCount": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        },
+                        "PrivateRecipeCount": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        },
+                        "PublicRecipeCount": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        },
+                        "TotalRecipes": {
+                            "description": "",
+                            "format": "int64",
+                            "type": "integer"
+                        }
+                    },
+                    "type": "object"
+                },
+                "FirstName": {
+                    "description": "",
+                    "type": "string"
+                },
+                "FullName": {
+                    "description": "",
+                    "type": "string"
+                },
+                "HomeUrl": {
+                    "description": "",
+                    "type": "string"
+                },
+                "LastName": {
+                    "description": "",
+                    "type": "string"
+                },
+                "PhotoUrl": {
+                    "description": "",
+                    "type": "string"
+                },
+                "UserID": {
+                    "description": "",
+                    "format": "int64",
+                    "type": "integer"
+                },
+                "UserName": {
+                    "description": "",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

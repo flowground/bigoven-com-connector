@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "query": {
+            "required": true,
+            "type": "string"
+        },
+        "limit": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "recipeId": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "pg": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "rpp": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

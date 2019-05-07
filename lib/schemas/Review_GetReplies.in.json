@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "reviewId": {
+            "required": true,
+            "type": "string"
+        },
+        "pg": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "rpp": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "EatingStyle": {
+                    "description": "",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

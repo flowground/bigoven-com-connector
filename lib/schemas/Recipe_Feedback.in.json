@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "recipeId": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "feedback": {
+                    "description": "",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

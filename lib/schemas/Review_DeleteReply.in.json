@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "replyId": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,363 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "ActiveMinutes": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "AdTags": {
+                    "type": "string"
+                },
+                "AdminBoost": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "AllCategoriesText": {
+                    "type": "string"
+                },
+                "BookmarkImageURL": {
+                    "type": "string"
+                },
+                "BookmarkSiteLogo": {
+                    "type": "string"
+                },
+                "BookmarkURL": {
+                    "type": "string"
+                },
+                "Category": {
+                    "type": "string"
+                },
+                "Collection": {
+                    "type": "string"
+                },
+                "CollectionID": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "CreationDate": {
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "Cuisine": {
+                    "type": "string"
+                },
+                "Description": {
+                    "type": "string"
+                },
+                "FavoriteCount": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "HeroPhotoUrl": {
+                    "type": "string"
+                },
+                "ImageSquares": {
+                    "items": {
+                        "format": "int32",
+                        "type": "integer"
+                    },
+                    "type": "array"
+                },
+                "ImageURL": {
+                    "type": "string"
+                },
+                "Ingredients": {
+                    "items": {
+                        "properties": {
+                            "DisplayIndex": {
+                                "format": "int32",
+                                "type": "integer"
+                            },
+                            "DisplayQuantity": {
+                                "type": "string"
+                            },
+                            "HTMLName": {
+                                "type": "string"
+                            },
+                            "IngredientID": {
+                                "format": "int64",
+                                "type": "integer"
+                            },
+                            "IngredientInfo": {
+                                "properties": {
+                                    "Department": {
+                                        "type": "string"
+                                    },
+                                    "MasterIngredientID": {
+                                        "format": "int32",
+                                        "type": "integer"
+                                    },
+                                    "Name": {
+                                        "type": "string"
+                                    },
+                                    "UsuallyOnHand": {
+                                        "type": "boolean"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "IsHeading": {
+                                "type": "boolean"
+                            },
+                            "IsLinked": {
+                                "type": "boolean"
+                            },
+                            "MetricDisplayQuantity": {
+                                "type": "string"
+                            },
+                            "MetricQuantity": {
+                                "format": "double",
+                                "type": "number"
+                            },
+                            "MetricUnit": {
+                                "type": "string"
+                            },
+                            "Name": {
+                                "type": "string"
+                            },
+                            "PreparationNotes": {
+                                "type": "string"
+                            },
+                            "Quantity": {
+                                "format": "double",
+                                "type": "number"
+                            },
+                            "Unit": {
+                                "type": "string"
+                            }
+                        },
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "IngredientsTextBlock": {
+                    "type": "string"
+                },
+                "Instructions": {
+                    "type": "string"
+                },
+                "IsBookmark": {
+                    "type": "boolean"
+                },
+                "IsPrivate": {
+                    "type": "boolean"
+                },
+                "IsRecipeScan": {
+                    "type": "boolean"
+                },
+                "IsSponsored": {
+                    "type": "boolean"
+                },
+                "LastModified": {
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "MaxImageSquare": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "MedalCount": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "MenuCount": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "Microcategory": {
+                    "type": "string"
+                },
+                "NotesCount": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "NutritionInfo": {
+                    "properties": {
+                        "CaloriesFromFat": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "Cholesterol": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "CholesterolPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "DietaryFiber": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "DietaryFiberPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "MonoFat": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "PolyFat": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "Potassium": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "PotassiumPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "Protein": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "ProteinPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "SatFat": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "SatFatPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "SingularYieldUnit": {
+                            "type": "string"
+                        },
+                        "Sodium": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "SodiumPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "Sugar": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "TotalCalories": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "TotalCarbs": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "TotalCarbsPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "TotalFat": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "TotalFatPct": {
+                            "format": "double",
+                            "type": "number"
+                        },
+                        "TransFat": {
+                            "format": "double",
+                            "type": "number"
+                        }
+                    },
+                    "type": "object"
+                },
+                "Poster": {
+                    "properties": {
+                        "FirstName": {
+                            "type": "string"
+                        },
+                        "ImageURL48": {
+                            "type": "string"
+                        },
+                        "IsKitchenHelper": {
+                            "type": "boolean"
+                        },
+                        "IsPremium": {
+                            "type": "boolean"
+                        },
+                        "IsUsingRecurly": {
+                            "type": "boolean"
+                        },
+                        "LastName": {
+                            "type": "string"
+                        },
+                        "MemberSince": {
+                            "format": "date-time",
+                            "type": "string"
+                        },
+                        "PhotoUrl": {
+                            "type": "string"
+                        },
+                        "PremiumExpiryDate": {
+                            "format": "date-time",
+                            "type": "string"
+                        },
+                        "UserID": {
+                            "format": "int32",
+                            "type": "integer"
+                        },
+                        "UserName": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "PrimaryIngredient": {
+                    "type": "string"
+                },
+                "RecipeID": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "ReviewCount": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "StarRating": {
+                    "format": "double",
+                    "type": "number"
+                },
+                "Subcategory": {
+                    "type": "string"
+                },
+                "Title": {
+                    "type": "string"
+                },
+                "TotalMinutes": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "VariantOfRecipeID": {
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "VerifiedByClass": {
+                    "type": "string"
+                },
+                "VerifiedDateTime": {
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "WebURL": {
+                    "type": "string"
+                },
+                "YieldNumber": {
+                    "format": "double",
+                    "type": "number"
+                },
+                "YieldUnit": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

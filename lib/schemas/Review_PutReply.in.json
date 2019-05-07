@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "replyId": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "description": "Reply request parameters",
+            "properties": {
+                "Comment": {
+                    "description": "The comment. If mentioning any user(s) (optional), include them as @username in the text body. Do not use @ symbol for anything but mentioning @usernames.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

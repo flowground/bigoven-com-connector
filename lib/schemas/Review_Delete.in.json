@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "reviewId": {
+            "required": true,
+            "type": "string"
+        },
+        "recipeId": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

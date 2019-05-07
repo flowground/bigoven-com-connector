@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+        },
+        "rpp": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "pg": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "test": {
+            "required": false,
+            "type": "boolean"
+        },
+        "sessionForLogging": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

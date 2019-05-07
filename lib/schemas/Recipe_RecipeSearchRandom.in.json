@@ -1,0 +1,172 @@
+{
+    "type": "object",
+    "properties": {
+        "any_kw": {
+            "required": false,
+            "type": "string"
+        },
+        "folder": {
+            "required": false,
+            "type": "string"
+        },
+        "coll": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "filter": {
+            "required": false,
+            "type": "string"
+        },
+        "title_kw": {
+            "required": false,
+            "type": "string"
+        },
+        "userId": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "username": {
+            "required": false,
+            "type": "string"
+        },
+        "token": {
+            "required": false,
+            "type": "string"
+        },
+        "photos": {
+            "required": false,
+            "type": "boolean"
+        },
+        "boostmine": {
+            "required": false,
+            "type": "boolean"
+        },
+        "include_cat": {
+            "required": false,
+            "type": "string"
+        },
+        "exclude_cat": {
+            "required": false,
+            "type": "string"
+        },
+        "include_primarycat": {
+            "required": false,
+            "type": "string"
+        },
+        "exclude_primarycat": {
+            "required": false,
+            "type": "string"
+        },
+        "include_ing": {
+            "required": false,
+            "type": "string"
+        },
+        "exclude_ing": {
+            "required": false,
+            "type": "string"
+        },
+        "cuisine": {
+            "required": false,
+            "type": "string"
+        },
+        "db": {
+            "required": false,
+            "type": "string"
+        },
+        "userset": {
+            "required": false,
+            "type": "string"
+        },
+        "servingsMin": {
+            "required": false,
+            "type": "number",
+            "format": "double"
+        },
+        "totalMins": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "maxIngredients": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "minIngredients": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "vtn": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "vgn": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "chs": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "glf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "ntf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "dyf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "sff": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "slf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "tnf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "wmf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "rmf": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "cps": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "champion": {
+            "required": false,
+            "type": "integer",
+            "format": "int32"
+        },
+        "synonyms": {
+            "required": false,
+            "type": "boolean"
+        }
+    }
+}

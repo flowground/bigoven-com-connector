@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "items": {
+                    "description": "Gets or sets the items.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

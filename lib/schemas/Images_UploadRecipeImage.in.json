@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "recipeId": {
+            "required": true,
+            "type": "string"
+        },
+        "caption": {
+            "required": false,
+            "type": "string"
+        },
+        "lat": {
+            "required": false,
+            "type": "number",
+            "format": "double"
+        },
+        "lng": {
+            "required": false,
+            "type": "number",
+            "format": "double"
+        }
+    }
+}

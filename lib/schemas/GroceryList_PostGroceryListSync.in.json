@@ -1,0 +1,202 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "list": {
+                    "description": "Gets or sets the list.",
+                    "properties": {
+                        "Items": {
+                            "items": {
+                                "properties": {
+                                    "BigOvenObject": {
+                                        "type": "string"
+                                    },
+                                    "CreationDate": {
+                                        "format": "date-time",
+                                        "type": "string"
+                                    },
+                                    "Department": {
+                                        "type": "string"
+                                    },
+                                    "DisplayQuantity": {
+                                        "type": "string"
+                                    },
+                                    "GUID": {
+                                        "type": "string"
+                                    },
+                                    "IsChecked": {
+                                        "type": "boolean"
+                                    },
+                                    "ItemID": {
+                                        "format": "int64",
+                                        "type": "integer"
+                                    },
+                                    "LastModified": {
+                                        "format": "date-time",
+                                        "type": "string"
+                                    },
+                                    "LocalStatus": {
+                                        "type": "string"
+                                    },
+                                    "Name": {
+                                        "type": "string"
+                                    },
+                                    "Notes": {
+                                        "type": "string"
+                                    },
+                                    "RecipeID": {
+                                        "format": "int32",
+                                        "type": "integer"
+                                    },
+                                    "ThirdPartyURL": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "type": "array"
+                        },
+                        "LastModified": {
+                            "format": "date-time",
+                            "type": "string"
+                        },
+                        "Recipes": {
+                            "items": {
+                                "properties": {
+                                    "BookmarkURL": {
+                                        "type": "string"
+                                    },
+                                    "Category": {
+                                        "type": "string"
+                                    },
+                                    "CreationDate": {
+                                        "format": "date-time",
+                                        "type": "string"
+                                    },
+                                    "Cuisine": {
+                                        "type": "string"
+                                    },
+                                    "HeroPhotoUrl": {
+                                        "type": "string"
+                                    },
+                                    "HideFromPublicSearch": {
+                                        "type": "boolean"
+                                    },
+                                    "ImageURL": {
+                                        "type": "string"
+                                    },
+                                    "ImageURL120": {
+                                        "type": "string"
+                                    },
+                                    "IsBookmark": {
+                                        "type": "boolean"
+                                    },
+                                    "IsPrivate": {
+                                        "type": "boolean"
+                                    },
+                                    "MaxImageSquare": {
+                                        "format": "int32",
+                                        "type": "integer"
+                                    },
+                                    "Microcategory": {
+                                        "type": "string"
+                                    },
+                                    "Poster": {
+                                        "properties": {
+                                            "FirstName": {
+                                                "type": "string"
+                                            },
+                                            "ImageURL48": {
+                                                "type": "string"
+                                            },
+                                            "IsKitchenHelper": {
+                                                "type": "boolean"
+                                            },
+                                            "IsPremium": {
+                                                "type": "boolean"
+                                            },
+                                            "IsUsingRecurly": {
+                                                "type": "boolean"
+                                            },
+                                            "LastName": {
+                                                "type": "string"
+                                            },
+                                            "MemberSince": {
+                                                "format": "date-time",
+                                                "type": "string"
+                                            },
+                                            "PhotoUrl": {
+                                                "type": "string"
+                                            },
+                                            "PremiumExpiryDate": {
+                                                "format": "date-time",
+                                                "type": "string"
+                                            },
+                                            "UserID": {
+                                                "format": "int32",
+                                                "type": "integer"
+                                            },
+                                            "UserName": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "type": "object"
+                                    },
+                                    "QualityScore": {
+                                        "format": "double",
+                                        "type": "number"
+                                    },
+                                    "RecipeID": {
+                                        "format": "int32",
+                                        "type": "integer"
+                                    },
+                                    "ReviewCount": {
+                                        "format": "int32",
+                                        "type": "integer"
+                                    },
+                                    "StarRating": {
+                                        "format": "double",
+                                        "type": "number"
+                                    },
+                                    "StarRatingIMG": {
+                                        "type": "string"
+                                    },
+                                    "Subcategory": {
+                                        "type": "string"
+                                    },
+                                    "Title": {
+                                        "type": "string"
+                                    },
+                                    "TotalTries": {
+                                        "format": "int32",
+                                        "type": "integer"
+                                    },
+                                    "WebURL": {
+                                        "type": "string"
+                                    },
+                                    "YieldNumber": {
+                                        "format": "double",
+                                        "type": "number"
+                                    }
+                                },
+                                "type": "object"
+                            },
+                            "type": "array"
+                        },
+                        "VersionGuid": {
+                            "type": "string"
+                        }
+                    },
+                    "type": "object"
+                },
+                "since": {
+                    "description": "Gets or sets the since.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

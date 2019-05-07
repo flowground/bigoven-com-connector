@@ -1,0 +1,43 @@
+{
+    "type": "object",
+    "properties": {
+        "guid": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "department": {
+                    "description": "Gets or sets the department.",
+                    "type": "string"
+                },
+                "guid": {
+                    "description": "Gets or sets the unique identifier.",
+                    "type": "string"
+                },
+                "ischecked": {
+                    "description": "Gets or sets the ischecked.",
+                    "type": "boolean"
+                },
+                "name": {
+                    "description": "Gets or sets the name.",
+                    "type": "string"
+                },
+                "notes": {
+                    "description": "Gets or sets the notes.",
+                    "type": "string"
+                },
+                "quantity": {
+                    "description": "Gets or sets the quantity.",
+                    "type": "string"
+                },
+                "unit": {
+                    "description": "Gets or sets the unit.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

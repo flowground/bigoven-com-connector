@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "test": {
+            "required": false,
+            "type": "boolean"
+        },
+        "devicetype": {
+            "required": false,
+            "type": "string"
+        },
+        "lat": {
+            "required": false,
+            "type": "number",
+            "format": "double"
+        },
+        "lng": {
+            "required": false,
+            "type": "number",
+            "format": "double"
+        }
+    }
+}

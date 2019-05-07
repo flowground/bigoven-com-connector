@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "department": {
+                    "description": "Gets or sets the department.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "Gets or sets the name.",
+                    "type": "string"
+                },
+                "notes": {
+                    "description": "Gets or sets the notes.",
+                    "type": "string"
+                },
+                "quantity": {
+                    "description": "Gets or sets the quantity.",
+                    "type": "string"
+                },
+                "unit": {
+                    "description": "Gets or sets the unit.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

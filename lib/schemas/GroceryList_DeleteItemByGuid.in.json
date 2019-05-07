@@ -1,0 +1,9 @@
+{
+    "type": "object",
+    "properties": {
+        "guid": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

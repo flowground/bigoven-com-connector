@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "description": "",
+            "properties": {
+                "markAsPending": {
+                    "description": "Gets or sets the mark as pending.",
+                    "type": "boolean"
+                },
+                "recipeId": {
+                    "description": "Gets or sets the recipe identifier.",
+                    "format": "int32",
+                    "type": "integer"
+                },
+                "scale": {
+                    "description": "Gets or sets the scale.",
+                    "format": "double",
+                    "type": "number"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

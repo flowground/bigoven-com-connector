@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "term": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "description": "Update an article",
+            "properties": {
+                "definition": {
+                    "description": "the html definition",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}
